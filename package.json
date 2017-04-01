@@ -1,5 +1,5 @@
 {
-  "name": "react-native-view-transformer",
+  "name": "react-native-view-editable",
   "version": "0.0.0-development",
   "description": "The one of the missing piece of react-native. View transformation with gestures ✋",
   "main": "index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-armenia/react-native-view-transformer.git"
+    "url": "https://github.com/react-armenia/react-native-view-editable.git"
   },
 	"czConfig": {
     "path": "node_modules/cz-conventional-changelog"
@@ -29,9 +29,9 @@
   "author": "Shahen Hovhannisyan <shahen.hovhannisyan.94@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/react-armenia/react-native-view-transformer/issues"
+    "url": "https://github.com/react-armenia/react-native-view-editable/issues"
   },
-  "homepage": "https://github.com/react-armenia/react-native-view-transformer#readme",
+  "homepage": "https://github.com/react-armenia/react-native-view-editable#readme",
   "devDependencies": {
     "babel-eslint": "6.1.2",
     "babel-jest": "19.0.0",
