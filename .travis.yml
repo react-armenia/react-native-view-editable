@@ -9,6 +9,8 @@ before_script:
   - npm prune
 script:
   - npm run checkall
+after_success:
+  - npm run semantic-release
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
