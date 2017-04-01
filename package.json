@@ -1,9 +1,10 @@
 {
   "name": "react-native-view-transformer",
-  "version": "0.1.0",
+  "version": "0.0.0-development",
   "description": "The one of the missing piece of react-native. View transformation with gestures ✋",
   "main": "index.js",
   "scripts": {
+    "commit": "git-cz",
     "checkall": "npm run test && npm run flow && npm run lint",
     "flow": "flow",
     "test": "jest",
@@ -12,7 +13,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/react-armenia/react-native-view-transformer.git"
+    "url": "https://github.com/react-armenia/react-native-view-transformer.git"
+  },
+	"czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
   },
   "keywords": [
     "react",
@@ -35,6 +39,8 @@
     "babel-preset-react": "6.16.0",
     "babel-preset-react-native": "1.9.1",
     "babel-preset-react-native-stage-0": "1.0.1",
+    "commitizen": "2.8.6",
+    "cz-conventional-changelog": "1.2.0",
     "eslint": "2.7.0",
     "eslint-config-airbnb": "6.2.0",
     "eslint-plugin-jsx-a11y": "1.3.0",
@@ -47,14 +53,15 @@
     "react": "15.4.2",
     "react-native": "0.42.3",
     "react-test-renderer": "15.4.2",
-    "semantic-release": "4.3.5"
+    "semantic-release": "^6.3.2",
+    "semantic-release-cli": "^3.0.3"
   },
   "jest": {
     "preset": "react-native"
   },
-	"config": {
-		"ghooks": {
-			"pre-commit": "npm run checkall"
-		}
-	}
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm run checkall"
+    }
+  }
 }
