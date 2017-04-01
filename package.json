@@ -1,0 +1,53 @@
+{
+  "name": "react-native-view-transformer",
+  "version": "0.1.0",
+  "description": "The one of the missing piece of react-native. View transformation with gestures ✋",
+  "main": "index.js",
+  "scripts": {
+    "checkall": "npm run test && npm run flow && npm run lint",
+    "flow": "flow",
+    "test": "jest",
+    "lint": "eslint ./lib/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/react-armenia/react-native-view-transformer.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "gesture-recognition",
+    "ios",
+    "android",
+    "react-armenia"
+  ],
+  "author": "Shahen Hovhannisyan <shahen.hovhannisyan.94@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/react-armenia/react-native-view-transformer/issues"
+  },
+  "homepage": "https://github.com/react-armenia/react-native-view-transformer#readme",
+  "devDependencies": {
+		"babel-preset-es2015": "6.18.0",
+	 "babel-preset-react": "6.16.0",
+	 "babel-preset-react-native": "1.9.0",
+	 "babel-preset-react-native-stage-0": "1.0.1",
+    "babel-jest": "19.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "flow-bin": "0.42.0",
+    "flow-typed": "^2.0.0",
+    "jest": "19.0.2",
+    "react": "15.4.2",
+    "react-native": "0.42.3",
+    "react-test-renderer": "15.4.2",
+		"babel-eslint": "6.1.2",
+		"eslint": "2.7.0",
+		"eslint-config-airbnb": "6.2.0",
+		"eslint-plugin-jsx-a11y": "1.3.0",
+		"eslint-plugin-react": "4.2.3",
+		"eslint-plugin-react-native": "1.1.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
