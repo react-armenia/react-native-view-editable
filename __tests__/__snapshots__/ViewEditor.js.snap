@@ -28,7 +28,7 @@ exports[`ViewEditor Component should render tree 1`] = `
           "scale": 1,
         },
         Object {
-          "rotate": "0deg0",
+          "rotate": "0deg",
         },
       ],
     }
