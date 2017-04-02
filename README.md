@@ -2,7 +2,9 @@
 
 [![Build Status](https://travis-ci.org/react-armenia/react-native-view-editable.svg?branch=master)](https://travis-ci.org/react-armenia/rreact-native-view-editable) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=plastic)](https://github.com/semantic-release/semantic-release)
 
-### The one of the missing piece of react-native. View transformation with gestures ✋. This makes ANY views editable using gestures like pinch, double tap or pull. You can scale/rotate/move any view
+### The one of the missing piece of react-native.
+### Highly performant view transformation with gestures ✋.
+### This library makes ANY views editable using gestures like pinch, double tap or pull. You can scale/rotate/move any view
 
 ### Getting Started
 ```sh
@@ -32,7 +34,12 @@ import { ViewEditor } from 'react-native-view-editable';
 export default class App extends Component {
   render() {
     return (
-        <ViewEditor style={styles.container} minScale={1} maxScale={10}>
+        <ViewEditor
+          style={styles.container}
+          scaleBounds={{ min: 1, max: 10 }}
+          onMove={() => console.log('move')}
+          onMoveEnd={() => console.log('move end')}
+        >
             <View>
                 <Text style={styles.welcome}>
                     Welcome to React Native!
@@ -69,6 +76,5 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('experimentsApp', () => App);
-
+AppRegistry.registerComponent('App', () => App);
 ```

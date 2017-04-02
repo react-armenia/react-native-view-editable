@@ -25,7 +25,7 @@
     "react-native/no-unused-styles": 2,
     "no-return-assign": 0,
     "react/jsx-boolean-value": 0,
-    "react/jsx-indent-props": 1,
+    "react/jsx-indent-props": [1, "tab"],
     "react/sort-comp": 0
   }
 }
