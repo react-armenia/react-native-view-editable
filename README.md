@@ -8,6 +8,10 @@
 ```sh
 $ npm install react-native-view-editable --save
 ```
+or
+```sh
+$ yarn add react-native-view-editable
+```
 
 ### Usage
 ```javascript

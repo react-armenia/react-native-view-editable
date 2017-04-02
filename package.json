@@ -7,7 +7,8 @@
     "commit": "git-cz",
     "checkall": "npm run test && npm run flow && npm run lint",
     "flow": "flow",
-    "test": "jest --verbose --coverage",
+    "test": "jest --verbose",
+		"coverage": "npm test -- --coverage",
     "lint": "eslint ./lib/**/*.js",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },

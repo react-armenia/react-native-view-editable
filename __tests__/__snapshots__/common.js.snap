@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Common utils should generate array for given range 1`] = `
+exports[`Common utils generateArray should generate array for given range 1`] = `
 Array [
   0,
   1,
