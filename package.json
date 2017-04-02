@@ -16,9 +16,6 @@
     "type": "git",
     "url": "https://github.com/react-armenia/react-native-view-editable.git"
   },
-  "czConfig": {
-    "path": "node_modules/cz-conventional-changelog"
-  },
   "keywords": [
     "react",
     "react-native",
@@ -61,6 +58,9 @@
     "preset": "react-native"
   },
   "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    },
     "ghooks": {
       "pre-commit": "npm run checkall"
     }
